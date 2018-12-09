@@ -57,7 +57,7 @@ class Game {
     } else {
       overlay.style.display = 'flex';
       overlay.classList.add('lose');
-      gameOverMessage.textContent = 'You Lose!';
+      gameOverMessage.textContent = 'Game Over';
 
     }
   }
